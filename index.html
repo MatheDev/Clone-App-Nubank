@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Clone Nubank</title>
+</head>
+<body>
+    <main class="container-central">
+        <header class="header section">
+            <div class="user">
+                <div class="icon-user"><img src="assets/icons/user-line.svg" alt="user"></div>
+                <div class="apresentation">Olá, Matheus</div>
+            </div>
+
+            <div class="information">
+                
+                    <div class="item">
+                        <img src="assets/icons/chat-3-line.svg" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="assets/icons/money-dollar-box-line.svg" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/icons/money-dollar-box-line.svg" alt="">
+                </div>
+            </div>
+          
+        </header>
+
+        <section class="account section"> 
+            <div class="account-title">
+                <div class="account-section">
+                    <h3>Conta</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" alt=""></a>
+                </div>
+
+                <div class="money">
+                    <div class="value">R$385,99</div>
+                </div>
+
+                <!-- scroll services -->
+                <div class="scroll-services">
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/html5-line.svg" alt=""></div>
+                            <div class="service-title">HTML5</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/css3-line.svg" alt=""></div>
+                            <div class="service-title">CSS3</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/braces-line.svg" alt=""></div>
+                            <div class="service-title">Braces</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/code-s-slash-line.svg" alt=""></div>
+                            <div class="service-title">Code</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/command-line.svg" alt=""></div>
+                            <div class="service-title">Command</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/brackets-line.svg" alt=""></div>
+                            <div class="service-title">Brackets</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/git-pull-request-fill.svg" alt=""></div>
+                            <div class="service-title">Git Pull Request</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/git-repository-line.svg" alt=""></div>
+                            <div class="service-title">Git Repository</div>
+                        </div>
+                        <div class="service">
+                            <div class="icon-service"><img src="assets/icons/terminal-window-fill.svg" alt=""></div>
+                            <div class="service-title">Terminal</div>
+                        </div>
+                </div>
+
+                <div class="my-cards">
+                    <div class="button-my-cards">
+                        <a href="#"><img src="assets/icons/bank-card-2-line.svg" alt="my-card">
+                        <span>Meus cartões</span>    
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <section class="my-card section" id="my-card">
+            <div class="">
+                <img src="assets/icons/bank-card-2-line.svg" alt="">
+                <div class="section-title">
+                    <h3>Cartão de crédito</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" onclick="sob()"id="arrow"></a>
+                </div>
+            </div>
+
+            <div class="description-card">
+                <div class="style-text">Fatura atual</div>
+                <div class="value">R$26,84</div>
+                <div class="style-text">Limite disponível de R$473,16</div>
+            </div>
+        </section>
+
+        <section class="my-card-sob" id="my-card-sob">
+            <div class="">
+                <img src="assets/icons/braces-line.svg" alt="">
+                <div class="section-title">
+                    <h3>Empréstimos</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="description-loan">
+                <div class="style-text">Valor disponível de até</div>
+                <div class="loan-limited style-text">R$12.500,00</div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <section class="loan section">
+            <div class="">
+                <img src="assets/icons/braces-line.svg" alt="">
+                <div class="section-title">
+                    <h3>Empréstimos</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="description-loan">
+                <div class="style-text">Valor disponível de até</div>
+                <div class="loan-limited style-text">R$12.500,00</div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <section class="investments section">
+            <div class="">
+                <img src="assets/icons/code-s-slash-line.svg" alt="">
+                <div class="section-title">
+                    <h3>Investimentos</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="description-loan">
+                <div class="style-text">O jeito Nu de investir: sem asteriscos, linguagem fácil e a partir de R$1. Saiba mais.</div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <section class="life-insurance section">
+            <div class="">
+                <img src="assets/icons/command-line.svg" alt="">
+                <div class="section-title">
+                    <h3>Seguro de vida</h3>
+                    <a href="#"><img src="assets/icons/arrow-right-s-line.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="description-loan">
+                <div class="style-text">Conheça Nubank Vida: um seguro simples e que cabe no bolso.</div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+        
+        <section class="recommendation section">
+            
+            <h3>Descubra mais</h3>
+            
+            <div class="cards">
+
+                <div class="card">
+                    <h4 class="title-card">Conta PJ</h4>
+                    <p>A gente te ajuda a gerenciar suas finanças de um jeito fácil para fazer seu negócio acontecer.</p>
+                    <button class="btn-card">Pedir conta PJ</button>
+                </div>
+
+                <div class="card">
+                    <h4 class="title-card">Conta PJ</h4>
+                    <p>A gente te ajuda a gerenciar suas finanças de um jeito fácil para fazer seu negócio acontecer.</p>
+                    <button class="btn-card">Pedir conta PJ</button>
+                </div>
+
+                <div class="card">
+                    <h4 class="title-card">Conta PJ</h4>
+                    <p>A gente te ajuda a gerenciar suas finanças de um jeito fácil para fazer seu negócio acontecer.</p>
+                    <button class="btn-card">Pedir conta PJ</button>
+                </div>
+            </div>
+        </section>   
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
